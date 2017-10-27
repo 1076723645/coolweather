@@ -76,7 +76,7 @@ public class Utility {
         }
         return false;
     }
-
+    //解析和处理天气信息
     public static Weather handleWeatherResponse(String response){
         try {
             JSONObject jsonObject = new JSONObject(response);
